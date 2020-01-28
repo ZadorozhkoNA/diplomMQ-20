@@ -1,0 +1,83 @@
+body, html {
+	font-family: Arial, sans-serif;
+  	font-size: 14px;
+  	font-weight: 400;
+  	font-style: normal;
+  	margin: 0;
+  	padding: 0;
+  	display: block;
+		color: #222222;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*Общая подложка*/
+.background {
+	max-width: 1900px;
+	margin: 0;
+  	padding: 0;
+}
+
+/*Центрирующий блок*/
+.center {
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+	color: #0000FF;
+}
+
+nav {
+  width: 20%;
+  margin: 10px 0;
+  display: inline-block;
+  vertical-align: top;
+
+  /* border-right: 2px #000000 solid; */
+}
+
+header {
+  border-bottom: 2px #000000 solid;
+}
+
+main {
+  width: 79%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 10px 0;
+}
+
+main table {
+  width: 100%;
+	margin: 0 0 20px 0;
+}
+
+.button {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+
+/*Очистка обтекания*/
+/* .clearfix:after {
+	content: "";
+  	display: block;
+  	width: 100%;
+  	clear: both;
+} */
